@@ -439,10 +439,10 @@ define(sc, 1.0)
 //Number of cells and points at each direction and element
 
 //Number of cells in y direction
-define(Nl1, 400)
+define(Nl1, 20)
 
 //Number of cells in downstream
-define(Nl2, 1500)
+define(Nl2, 75)
 
 //Number of cells in z direction
 define(Nl3, 1)
@@ -454,7 +454,7 @@ define(Nl4, 100)
 define(Nl5, 70)
 
 //Number of interpolation points along the airfoil for defining the splines
-define(Naf, 99)
+define(Naf, 10)
 
 //Cell expansion ratios
 

@@ -42,6 +42,18 @@ boundaryField
     {
         type            empty;
     }
+
+    airfoil
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+
+    farBoundaries
+    {
+        type            calculated;
+        value           uniform 0;
+    }
 }
 
 // ************************************************************************* //

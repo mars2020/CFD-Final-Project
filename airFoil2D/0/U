@@ -41,6 +41,16 @@ boundaryField
     {
         type            empty;
     }
+
+    airfoil
+    {
+        type            slip;
+    }
+
+    farBoundaries
+    {
+        type            noSlip;
+    }
 }
 
 // ************************************************************************* //
