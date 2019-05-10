@@ -459,10 +459,10 @@ define(Naf, 99)
 //Cell expansion ratios
 
 //Expansion ratio in y direction
-define(E1, 100)
+define(E1, 50)
 
 //Expansion ratio in downstream side
-define(E2, 100)
+define(E2, 50)
 
 //Expansion ratio in inlet
 define(E3, 10)
