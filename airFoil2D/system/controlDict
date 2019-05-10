@@ -23,25 +23,25 @@ startTime       0;
 
 stopAt          endTime;
 
-endTime         500;
+endTime         10;
 
-deltaT          1;
+deltaT          0.5;
 
 writeControl    timeStep;
 
-writeInterval   50;
+writeInterval   1;
 
 purgeWrite      0;
 
 writeFormat     ascii;
 
-writePrecision  6;
+writePrecision  5;
 
 writeCompression off;
 
 timeFormat      general;
 
-timePrecision   6;
+timePrecision   5;
 
 runTimeModifiable true;
 
