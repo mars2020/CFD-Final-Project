@@ -442,7 +442,7 @@ define(sc, 1.0)
 define(Nl1, 250)
 
 //Number of cells in downstream
-define(Nl2, 3)
+define(Nl2, 10)
 
 //Number of cells in z direction
 define(Nl3, 1)

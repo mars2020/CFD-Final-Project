@@ -292,13 +292,13 @@ blocks
     //B2
     hex (2 3 4 11 14 15 16 23)
     square
-    (3 250 1)
+    (10 250 1)
     simpleGrading (1 1 1)
     
     //B3
     hex (11 4 5 6 23 16 17 18)
     square
-    (3 250 1)
+    (10 250 1)
     simpleGrading (1 1 1)
     
     //B4
