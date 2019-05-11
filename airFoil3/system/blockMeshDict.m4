@@ -428,7 +428,7 @@ define(NACA4, 2)
 define(L1, 4.0)
 
 //Length of downstream
-define(L2, 3)
+define(L2, 3.0)
 
 //Foil depth in z direction perpendicular to x-y surface
 define(L3, 0.5)
@@ -442,7 +442,7 @@ define(sc, 1.0)
 define(Nl1, 250)
 
 //Number of cells in downstream
-define(Nl2, 15)
+define(Nl2, 5)
 
 //Number of cells in z direction
 define(Nl3, 1)
