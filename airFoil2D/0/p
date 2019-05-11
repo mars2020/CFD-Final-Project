@@ -16,20 +16,19 @@ FoamFile
 
 dimensions      [0 2 -2 0 0 0 0];
 
-internalField   uniform 1;
+internalField   uniform 0;
 
 boundaryField
 {
     inlet
     {
-        freestreamValue uniform 1;
-        type            freestream;
+	type 	zeroGradient;
     }
 
     outlet
     {
-        freestreamValue uniform 1;
-        type            freestream;
+	type 	fixedValue;
+	value   	uniform 0; 
     }
 
     walls
@@ -49,7 +48,9 @@ boundaryField
     
     farBoundaries
     {
-        type            zeroGradient;
+	type		fixedValue;
+	value		uniform 0; 
+        //type            zeroGradient;
     }
 }
 
