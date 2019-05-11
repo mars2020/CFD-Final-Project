@@ -23,13 +23,13 @@ boundaryField
     inlet
     {
         type            freestream;
-        freestreamValue uniform (25.75 3.62 0);
+        freestreamValue uniform (1 0 0);
     }
 
     outlet
     {
         type            freestream;
-        freestreamValue uniform (25.75 3.62 0);
+        freestreamValue uniform (1 0 0);
     }
 
     walls
