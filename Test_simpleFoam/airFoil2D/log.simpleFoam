@@ -1,0 +1,45 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  6.0
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 6.0
+Exec   : simpleFoam
+Date   : May 12 2019
+Time   : 16:13:36
+Host   : "login1.stampede2.tacc.utexas.edu"
+PID    : 279141
+I/O    : uncollated
+Case   : /work/05129/mars2020/stampede2/cfd/Test2D/airFoil2D
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+SIMPLE: Convergence criteria found
+        p: tolerance 1e-05
+        U: tolerance 1e-05
+        nuTilda: tolerance 1e-05
+
+Reading field p
+
+
+
+--> FOAM FATAL IO ERROR: 
+keyword freestreamValue is undefined in dictionary "/work/05129/mars2020/stampede2/cfd/Test2D/airFoil2D/0/p.boundaryField.inlet"
+
+file: /work/05129/mars2020/stampede2/cfd/Test2D/airFoil2D/0/p.boundaryField.inlet from line 25 to line 25.
+
+    From function const Foam::entry &Foam::dictionary::lookupEntry(const Foam::word &, bool, bool) const
+    in file db/dictionary/dictionary.C at line 566.
+
+FOAM exiting
+
