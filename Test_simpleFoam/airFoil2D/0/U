@@ -16,20 +16,20 @@ FoamFile
 
 dimensions      [0 1 -1 0 0 0 0];
 
-internalField   uniform (25.75 3.62 0);
+internalField   uniform (1 0 0);
 
 boundaryField
 {
     inlet
     {
         type            freestream;
-        freestreamValue uniform (25.75 3.62 0);
+        freestreamValue uniform (1 0 0);
     }
 
     outlet
     {
         type            freestream;
-        freestreamValue uniform (25.75 3.62 0);
+        freestreamValue uniform (1 0 0);
     }
 
     walls
@@ -40,6 +40,17 @@ boundaryField
     frontAndBack
     {
         type            empty;
+    }
+
+    airfoil
+    {
+        type            noSlip;
+    }
+
+    farBoundaries
+    {
+        type            freestream;
+        freestreamValue uniform (1 0 0);
     }
 }
 
