@@ -281,37 +281,37 @@ blocks
     hex (0 1 10 8 12 13 22 20)
     square
     (12 250 1)
-    simpleGrading (1 1 1)
+    simpleGrading (1 0.2 1)
     
     //B1
     hex (1 2 11 10 13 14 23 22)
     square
     (12 250 1)
-    simpleGrading (1 1 1)
+    simpleGrading (1 0.2 1)
     
     //B2
     hex (2 3 4 11 14 15 16 23)
     square
     (3 250 1)
-    simpleGrading (1 1 1)
+    simpleGrading (5 0.2 1)
     
     //B3
     hex (11 4 5 6 23 16 17 18)
     square
     (3 250 1)
-    simpleGrading (1 1 1)
+    simpleGrading (5 5 1)
     
     //B4
     hex (9 11 6 7 21 23 18 19)
     square
     (12 250 1)
-    simpleGrading (1 1 1)
+    simpleGrading (1 5 1)
     
     //B5
     hex (8 9 7 0 20 21 19 12)
     square
     (12 250 1)
-    simpleGrading (1 1 1)
+    simpleGrading (1 5 1)
 );
 
 edges
